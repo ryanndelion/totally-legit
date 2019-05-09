@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,700);
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
 body {
@@ -14,10 +14,18 @@ body {
 }
 
 h1 {
-  font-family: 'Lobster';
-  font-size: 6rem;
+  font-family: 'Comfortaa';
+  font-weight: 300;
+  font-size: 4rem;
   color: black;
-  transform: rotate(-10deg);
+  /*transform: rotate(-10deg);*/
+}
+
+h3 {
+  font-family: 'Comfortaa';
+  font-weight: 300;
+  font-size: 2rem;
+  color: black;
 }
 
 .alert {
@@ -45,7 +53,8 @@ button {
   font-size: 2em;
   padding: 10px;
   margin-left: 0;
-  font-family: 'Lobster';
+  font-family: 'Comfortaa';
+  font-weight: 300;
 }
 
 input[type=text] {
@@ -53,7 +62,7 @@ input[type=text] {
   outline: none;
   border: 3px solid black;
   color: black;
-  font-family: 'Lato';
+  font-family: 'Comfortaa';
   font-size: 2em;
   padding: 8px;
   margin-right: 0;
